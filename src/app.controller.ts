@@ -32,7 +32,7 @@ export class AppController {
   @Post('/users/start')
   start() {
     return this.httpService.post(
-      'https://4ln2.developer.orkescloud.com/users/start',
+      'https://4ln2.developer.orkescloud.com//users/start',
       {
         headers: {
           Authorization: `Bearer ${process.env.API_KEY}`,
